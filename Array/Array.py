@@ -1,0 +1,18 @@
+from array import *
+num = array('i',(1, 2, 3))
+print(num)
+num.append(4)
+print(num)
+print(num.index(3))
+num.reverse()
+print(num)
+num_1 = array(num.typecode, (a for a in num))
+num_1.reverse()
+print(num_1)
+print(num.count(3))
+num.byteswap()
+print(num)
+num.tobytes()
+print(num)
+help(array)
+
